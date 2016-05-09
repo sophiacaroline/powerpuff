@@ -1,0 +1,87 @@
+/* Buttons */
+
+.btn-default {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.btn-mod {
+    background-color: blue;
+    border-color: #cccccc;
+    font-weight: bold;
+}
+
+.btn-cent {
+    color: black;
+    background-color: #016A3A;
+    border-color: #cccccc;
+    font-weight: bold;
+}
+
+.btn-folk {
+    color: black;
+    background-color: #52BDEC;
+    border-color: #cccccc;
+    font-weight: bold;
+}
+
+.btn-krist {
+    color: black;
+    background-color: #231977;
+    border-color: #cccccc;
+    font-weight: bold;
+    background: #08519c;
+}
+
+.btn-mil {
+    color: black;
+    background-color: #53A045;
+    border-color: #cccccc;
+    font-weight: bold;
+}
+
+.btn-soc {
+    color: black;
+    background-color: #ED1B34;
+    border-color: #cccccc;
+    font-weight: bold;
+}
+
+.btn-van {
+    color: black;
+    background-color: #a50f15;
+    border-color: #cccccc;
+    font-weight: bold;
+}
+
+.btn-sve {
+    color: black;
+    background-color: #DDDD00;
+    border-color: #cccccc;
+    font-weight: bold;
+}
+
+.btn-ovr {
+    color: black;
+    background-color: gray;
+    border-color: #cccccc;
+    font-weight: bold;
+}
+
+.ui-slider .ui-slider-handle{ 
+    background: #4c4c4c; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#2b2b2b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 2px solid #000000;
+    border-color: white;
+
+}
+
+#footer {
+    height: 10px;
+}
