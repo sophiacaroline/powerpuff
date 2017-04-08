@@ -414,7 +414,8 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
-			color: #e5e6e7;
+			/*color: #e5e6e7; */
+			color: black
 			content: '\f1ce';
 			cursor: default;
 			display: block;
@@ -480,7 +481,8 @@
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
-		color: #39454b;
+		/*color: #39454b;*/
+		color: white;
 		letter-spacing: 0.025em;
 	}
 
@@ -1670,10 +1672,11 @@
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
+		/*background: rgba(255, 255, 255, 0.95); */
+		background: black;
 		height: 3em;
 		line-height: 3em;
-		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0 1.15em 0 rgba(85, 89, 182, 0.9);
 	}
 
 		#header h1 {
