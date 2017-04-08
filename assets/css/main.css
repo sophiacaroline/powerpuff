@@ -481,7 +481,7 @@
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
-		/*color: #39454b;*/
+		/* color: #39454b; */
 		color: white;
 		letter-spacing: 0.025em;
 	}
@@ -599,8 +599,8 @@
 /* Box */
 
 	.box {
-		background: #ffffff;
-		color: #39454b;
+		background: rgb(0,0,0);
+		color: rgb(255,255,255);
 		padding: 2em;
 	}
 
@@ -1884,11 +1884,13 @@
 			}
 
 			.main.style3.primary {
-				background: #ffffff;
+				background:rgb(33, 33, 33);
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				background: rgb(0,0,0);
+				background;
+				rgb(33,33,33);
 			}
 
 		.main.dark {
