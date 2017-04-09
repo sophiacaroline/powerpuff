@@ -530,10 +530,9 @@
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 900;
+		/* font-weight: 900; */
 		color: inherit;
 		letter-spacing: -0.0325em;
-
 		font-family: 'Press Start 2P';
 	}
 
@@ -1756,7 +1755,7 @@
 						outline: 0;
 					}
 
-		@media screen and (max-width: 736px) {
+/*		@media screen and (max-width: 736px) {
 
 			#header {
 				height: 2.5em;
@@ -1780,7 +1779,7 @@
 					display: none;
 				}
 
-		}
+		} */
 
 	body {
 		padding-top: 3em;
@@ -1794,32 +1793,6 @@
 
 		}
 
-		@media screen and (max-width: 360px) {
-
-			#header {
-				height: 2.5em;
-				line-height: 2.5em;
-			}
-
-				#header h1 {
-					text-align: center;
-					position: relative;
-					left: 0;
-					top: 0;
-					height: 2.5em;
-					line-height: 2.5em;
-				}
-
-					#header h1 a {
-						font-size: 1em;
-					}
-
-				#header nav {
-					display: none;
-				}
-
-		}
-
 /* Main */
 
 	.main {
@@ -1830,18 +1803,18 @@
 		position: relative;
 		margin: 0;
 		overflow-x: hidden;
-		
 	}
 
 		.main > .content {
 			width: 45em;
 			max-width: calc(100% - 4em);
-			margin: 0 auto;		
+			margin: 0 auto;
 		}
 
 			.main > .content > :last-child {
-				margin-bottom: 1em;
-				
+				/*margin-bottom: 1em;*/
+				margin: 1em;
+				/* margin-left: 1em; */
 			}
 
 		.main.fullscreen {
@@ -1857,8 +1830,8 @@
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			text-align: center;	
-			padding: 1em;		
+			text-align: center;
+			padding: 1em;
 		}
 
 			.main.style1 h2 {
@@ -1877,8 +1850,7 @@
 				-ms-transform: translateZ(0);
 				transform: translateZ(0);
 				opacity: 1.0;
-				width: 75%;
-
+				width: 50%;
 				background-color: rgba(0, 0, 0, 0.8);
 				box-shadow: 0 0 1.15em 0 rgba(85, 89, 182, 0.9);
 			}
@@ -2032,8 +2004,16 @@
 				padding: 4em 15px 4em 15px;
 			}
 
+				.main.style1 img {
+					width: 50%;
+				}
+
 				.main.style1 h2 {
-					font-size: 3em;
+					font-size: 1em;
+				}
+
+				.main.main.style1 {
+					font-size: 1em;
 				}
 
 			.main.style2 {
@@ -2177,12 +2157,11 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat; */
-
-		background: url("../../images/intro-mountains.jpg");
-		background-size: cover;
-		background-attachment: fixed;
-		background-position: bottom center;
-		background-repeat: no-repeat; 
+	background: url("../../images/intro-mountains.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-repeat: no-repeat;
 	}
 
 /* One */
