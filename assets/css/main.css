@@ -1700,12 +1700,12 @@
 
 		#header h1 {
 			position: absolute;
-			left: 1em;
+			left: 0.5em;
 			top: 0;
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
-			font: "Pixel Emulator";
+			font-family: 'Press Start 2P';
 		}
 
 			#header h1 a {
@@ -1793,6 +1793,32 @@
 
 		}
 
+		@media screen and (max-width: 360px) {
+
+			#header {
+				height: 2.5em;
+				line-height: 2.5em;
+			}
+
+				#header h1 {
+					text-align: center;
+					position: relative;
+					left: 0;
+					top: 0;
+					height: 2.5em;
+					line-height: 2.5em;
+				}
+
+					#header h1 a {
+						font-size: 1em;
+					}
+
+				#header nav {
+					display: none;
+				}
+
+		}
+
 /* Main */
 
 	.main {
@@ -1803,6 +1829,7 @@
 		position: relative;
 		margin: 0;
 		overflow-x: hidden;
+		padding: 1em;
 	}
 
 		.main > .content {
@@ -1833,7 +1860,7 @@
 
 			.main.style1 h2 {
 				font-size: 4.25em;
-				line-height: 2em;
+				line-height: 1.5em;
 			}
 
 			.main.style1 > .content {
@@ -2031,7 +2058,6 @@
 				text-align: center;
 				padding: 3em 10px 3em 10px;
 			}
-
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2039,7 +2065,6 @@
 			.main > .content {
 				max-width: calc(100% - 1.5em);
 			}
-
 		}
 
 /* Footer */
