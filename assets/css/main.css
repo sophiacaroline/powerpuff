@@ -485,6 +485,7 @@
 		/* color: #39454b; */
 		color: white;
 		letter-spacing: 0.025em;
+				background: rgb(0,0,0);
 	}
 
 		@media screen and (max-width: 1920px) {
@@ -1805,11 +1806,11 @@
 		.main > .content {
 			width: 45em;
 			max-width: calc(100% - 4em);
-			margin: 0 auto;
+			margin: 0 auto;	
 		}
 
 			.main > .content > :last-child {
-				margin-bottom: 0;
+				margin-bottom: 1em;
 			}
 
 		.main.fullscreen {
@@ -1825,13 +1826,12 @@
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			text-align: center;
-			padding: 3em 0 3em 0;
+			text-align: center;			
 		}
 
 			.main.style1 h2 {
 				font-size: 4.25em;
-				line-height: 1em;
+				line-height: 2em;
 			}
 
 			.main.style1 > .content {
@@ -1844,7 +1844,10 @@
 				-ms-transform: translateZ(0);
 				transform: translateZ(0);
 				opacity: 1.0;
-				margin: 0;
+				width: 75%;
+
+				background-color: rgba(0, 0, 0, 0.8);
+				box-shadow: 0 0 1.15em 0 rgba(85, 89, 182, 0.9);
 			}
 
 			.main.style1.inactive > .content {
@@ -2123,13 +2126,12 @@
 				#footer ul.menu li a {
 					line-height: 1.5em;
 				}
-
 		}
 
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/intro-mountains.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
