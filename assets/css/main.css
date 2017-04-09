@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 /*
 	Big Picture by HTML5 UP
@@ -531,6 +532,8 @@
 		font-weight: 900;
 		color: inherit;
 		letter-spacing: -0.0325em;
+
+		font-family: 'Press Start 2P';
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1699,6 +1702,7 @@
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
+			font: "Pixel Emulator";
 		}
 
 			#header h1 a {
