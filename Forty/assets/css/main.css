@@ -3220,7 +3220,7 @@
 				}
 
 				#header nav a[href="#menu"] {
-					padding-right: 3.325em !important;
+					/*padding-right: 3.325em !important;*/
 				}
 
 					#header nav a[href="#menu"]:before, #header nav a[href="#menu"]:after {
@@ -3407,12 +3407,12 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/intro-mountains.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		padding: 6em 0 2em 0 ;
+		padding: 6em 0 2em 0;
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -3440,7 +3440,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: rgba(36, 41, 67, 0);
 			content: '';
 			display: block;
 			height: 100%;
@@ -3785,10 +3785,12 @@
 		}
 
 		#wrapper > * > .inner {
-			padding: 4em 0 2em 0 ;
+			padding: 4em 0 2em 0;
 			margin: 0 auto;
 			max-width: 65em;
 			width: calc(100% - 6em);
+			background: rgba(0, 0, 0, 0.24);
+			padding: 1em;
 		}
 
 			@media screen and (max-width: 736px) {
