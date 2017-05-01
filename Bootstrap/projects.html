@@ -17,6 +17,10 @@
   <!-- Custom CSS -->
   <link href="css/2-col-portfolio.css" rel="stylesheet">
 
+  <link href="css/bootstrap-social.css" rel="stylesheet">
+
+  <link href="css/custom-labels.css" rel="stylesheet">
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -66,9 +70,7 @@
     <!-- Page Header -->
     <div class="row">
       <div class="col-lg-12">
-        <h1 class="page-header">Work
-          <small>Secondary Text</small>
-        </h1>
+        <h1 class="page-header">Work Experience</h1>
       </div>
     </div>
     <!-- /.row -->
@@ -80,8 +82,39 @@
         <h3>
           Master Thesis at Autodesk
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius
-          vitae.
+        <p>
+          I am doing my Master Thesis project together with <a href="http://jingelman.github.io/">Martin Engelbrektsson</a>          at Autodesk in Stockholm. We are developing a plug-in for telemetry visualization for the game engine Stingray.
+          Our hopes are that such a plug-in can help game developers and designers find performance and design bottlenecks.
+          We are cooperating with Fatshark and have recieved several gigabytes of telemetry data recorded from real sessions
+          in the game Vermintide.<br></br>
+
+          Stay tuned for more info!
+        </p>
+
+        <p>
+          <button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+            aria-controls="collapseExample">
+            Read more.
+          </button>
+        </p>
+
+        <div class="collapse" id="collapseExample">
+          <div class="card card-block">
+            The best is yet to come!
+          </div>
+        </div>
+
+        <p>
+          <span class="label label-c">C</span>
+          <span class="label label-cpp">C++</span>
+          <span class="label label-javascript">Javascript</span>
+          <span class="label label-lua">Lua</span>
+
+          <span class="label label-default">MongoDB</span>
+          <span class="label label-default">Big Data</span>
+          <span class="label label-default">Visualization</span>
+          <span class="label label-default">Front-end</span>
+          <span class="label label-default">Back-end</span>
         </p>
       </div>
 
@@ -90,9 +123,24 @@
         <h3>
           Programming mentor at LiTHehack
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius
-          vitae.
+        <p>
+          In 2015-2016 I was part of a student-driven association at Linköping University aiming to help and inspire students with
+          programming. We held extra help sessions once a week and organized inspiring events such as lectures, coding challenges
+          and more. <br></br>
+
+          <a href="http://lithehack.se/">Link to website (Swedish)</a>
         </p>
+
+        <p>
+          <span class="label label-cpp">C++</span>
+          <span class="label label-java">Java</span>
+          <span class="label label-matlab">Matlab</span>
+          <span class="label label-html">HTML</span>
+          <span class="label label-css">CSS</span>
+          <span class="label label-javascript">JavaScript</span>
+          <span class="label label-default">Teaching</span>
+        </p>
+
       </div>
 
     </div>
@@ -103,19 +151,36 @@
       <div class="col-md-5 portfolio-item">
         <img class="img-responsive" src="img/work/liu.png" alt="">
         <h3>
-          Project Three
+          Lab Assistant and Mathematics Mentor
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius
-          vitae.
+        <p>
+          I Assisted students during coding labs in the course Communication and User Interfaces in 2015. The labs were about GUI development
+          with Java and Android.<br></br>
+          In 2013 I Assisted and held extra lectures for students one time per week during the very first course in mathematics, Introduction
+          to Mathematics.
         </p>
+
+        <p>
+          <span class="label label-java">Java</span>
+          <span class="label label-default">Android</span>
+          <span class="label label-default">Teaching</span>
+          <span class="label label-default">Mathematics</span>
+        </p>
+
       </div>
       <div class="col-md-5 portfolio-item">
         <img class="img-responsive" src="img/work/saab.png" alt="">
         <h3>
-          Project Four
+          Summer intern
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius
-          vitae.
+        <p>
+          During summer 2012 I assisted with calculation and graph visualization in Excel.<br></br>
+          In 2013 my job was to test the efficiency of alternative systems for writing technical instructions.
+        </p>
+
+        <p>
+          <span class="label label-default">Excel</span>
+          <span class="label label-default">Mathematics</span>
         </p>
       </div>
     </div>
@@ -132,194 +197,155 @@
 
     <!-- Projects Row -->
     <div class="row">
-      <div class="col-md-5 portfolio-item">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/projects/dfsph.png" alt="Chania">
-              <div class="carousel-caption">
-                <h3>Los Angeles</h3>
-                <p>LA is always so much fun!</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="img/projects/dfsph.png" alt="Chicago">
-              <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="img/projects/dfsph.png" alt="New York">
-              <div class="carousel-caption">
-                <h3>New York</h3>
-                <p>We love the Big Apple!</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-
-        <h3>
-          Master Thesis at Autodesk
-        </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius
-          vitae.
-        </p>
-      </div>
-
-          <div class="row">
-      <div class="col-md-5 portfolio-item">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/projects/igloo.png" alt="Chania">
-              <div class="carousel-caption">
-                <h3>Los Angeles</h3>
-                <p>LA is always so much fun!</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="img/projects/dfsph.png" alt="Chicago">
-              <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="img/projects/dfsph.png" alt="New York">
-              <div class="carousel-caption">
-                <h3>New York</h3>
-                <p>We love the Big Apple!</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-
-        <h3>
-          Master Thesis at Autodesk
-        </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius
-          vitae.
-        </p>
-      </div>
-    <!-- /.row -->
-
-    <!-- Projects Row -->
-    <div class="row">
-      <div class="col-md-5 portfolio-item">
-        <img class="img-responsive" src="img/projects/earth.png" alt="">
-        <h3>
-          Master Thesis at Autodesk
-        </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius
-          vitae.
-        </p>
-      </div>
-
-      <div class="col-md-5 portfolio-item">
-        <img class="img-responsive" src="img/projects/infovis.png" alt="">
-        <h3>
-          Programming mentor at LiTHehack
-        </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius
-          vitae.
-        </p>
-      </div>
-    </div>
-    <!-- /.row -->
-
-    <hr>
-
-    <!-- Pagination -->
-    <div class="row text-center">
-      <div class="col-lg-12">
-        <ul class="pagination">
-          <li>
-            <a href="#">&laquo;</a>
-          </li>
-          <li class="active">
-            <a href="#">1</a>
-          </li>
-          <li>
-            <a href="#">2</a>
-          </li>
-          <li>
-            <a href="#">3</a>
-          </li>
-          <li>
-            <a href="#">4</a>
-          </li>
-          <li>
-            <a href="#">5</a>
-          </li>
-          <li>
-            <a href="#">&raquo;</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- /.row -->
-
-    <hr>
-
-    <!-- Footer -->
-    <footer>
       <div class="row">
-        <div class="col-lg-12">
-          <p>Copyright &copy; Your Website 2014</p>
+        <div class="col-md-5 portfolio-item">
+          <img class="img-responsive" src="img/projects/dfsph.png" alt="">
+          <h3>
+            Master Thesis at Autodesk
+          </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius
+            vitae.
+          </p>
+
+          <p>
+            <span class="label label-c">C</span>
+            <span class="label label-javascript">JavaScript</span>
+          </p>
         </div>
-      </div>
-      <!-- /.row -->
-    </footer>
 
-  </div>
-  <!-- /.container -->
+        <div class="row">
+          <div class="col-md-5 portfolio-item">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/projects/igloo.png" alt="Chania">
+                  <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>LA is always so much fun!</p>
+                  </div>
+                </div>
 
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
+                <div class="item">
+                  <img src="img/projects/dfsph.png" alt="Chicago">
+                  <div class="carousel-caption">
+                    <h3>Chicago</h3>
+                    <p>Thank you, Chicago!</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="img/projects/dfsph.png" alt="New York">
+                  <div class="carousel-caption">
+                    <h3>New York</h3>
+                    <p>We love the Big Apple!</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+            <h3>
+              Master Thesis at Autodesk
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
+              varius vitae.
+            </p>
+          </div>
+          <!-- /.row -->
+
+          <!-- Projects Row -->
+          <div class="row">
+            <div class="col-md-5 portfolio-item">
+              <img class="img-responsive" src="img/projects/earth.png" alt="">
+              <h3>
+                Master Thesis at Autodesk
+              </h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
+                varius vitae.
+              </p>
+            </div>
+
+            <div class="col-md-5 portfolio-item">
+              <img class="img-responsive" src="img/projects/infovis.png" alt="">
+              <h3>
+                Programming mentor at LiTHehack
+              </h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
+                varius vitae.
+              </p>
+            </div>
+          </div>
+          <!-- /.row -->
+
+          <hr>
+
+          <!-- Pagination -->
+          <div class="row text-center">
+            <div class="col-lg-12">
+              <ul class="pagination">
+                <li>
+                  <a href="#">&laquo;</a>
+                </li>
+                <li class="active">
+                  <a href="#">1</a>
+                </li>
+                <li>
+                  <a href="#">2</a>
+                </li>
+                <li>
+                  <a href="#">3</a>
+                </li>
+                <li>
+                  <a href="#">4</a>
+                </li>
+                <li>
+                  <a href="#">5</a>
+                </li>
+                <li>
+                  <a href="#">&raquo;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.row -->
+
+          <hr>
+
+          <!-- Footer -->
+          <footer>
+            <div class="row">
+              <div class="col-lg-12">
+                <p>Copyright &copy; Your Website 2014</p>
+              </div>
+            </div>
+            <!-- /.row -->
+          </footer>
+
+        </div>
+        <!-- /.container -->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
 
 </body>
 

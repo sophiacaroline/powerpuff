@@ -1,0 +1,49 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.label-c {
+  background-color: #555555;
+}
+
+.label-cpp {
+  background-color: #f34b7d;
+}
+
+.label-css {
+  background-color: #563d7c;
+}
+
+.label-html {
+  background-color: #e44b23;
+}
+
+.label-java {
+  background-color: #b07219;
+}
+
+.label-javascript {
+  background-color: #f1e05a;
+}
+
+.label-lua {
+  background-color: #000080;
+}
+
+.label-php {
+  background-color: #4F5D95;
+}
+
+.label-Python {
+  background-color: #3572A5;
+}
+
+.label-matlab {
+  background-color: #bb92ac;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
