@@ -11,6 +11,8 @@ body {
 
     background-image: url("dark_geometric_@2X.png");
     background-repeat: repeat;
+
+    border-color: black;
 }
 
 .portfolio-item {
